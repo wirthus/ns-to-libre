@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {},
+  "include": [
+    "*.js",
+    ".eslintrc.cjs",
+    "tsup.config.ts",
+    "src/**/*.ts"
+  ]
+}

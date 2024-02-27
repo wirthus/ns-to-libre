@@ -1,0 +1,13 @@
+{
+  "extends": "@wirthus/tsconfig/node.json",
+  "compilerOptions": {
+    "module": "node16",
+    "moduleResolution": "node16",
+    "baseUrl": "./src",
+    "outDir": "dist",
+    "noEmit": false,
+  },
+  "include": [
+    "src/**/*.ts",
+  ]
+}
