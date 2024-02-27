@@ -47,7 +47,7 @@
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-jsdoc": "^48.2.0",
     "eslint-plugin-no-null": "^1.0.2",
-    "eslint-plugin-wirthus": "github:wirthus/eslint-plugin-wirthus",
+    "eslint-plugin-wirthus": "^1.0.0",
     "release-it": "^17.1.1",
     "rimraf": "^5.0.5",
     "ts-node": "^10.9.2",
