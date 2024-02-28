@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import './bootstrap/date';
 
 import { dirname, resolve } from 'path';
