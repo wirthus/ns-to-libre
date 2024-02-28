@@ -10,7 +10,10 @@
     "diabetes",
     "cgm"
   ],
-  "repository": "git+https://github.com/wirthus/ns-to-libre.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wirthus/ns-to-libre.git"
+  },
   "homepage": "https://github.com/wirthus/ns-to-libre#readme",
   "author": "wirthus",
   "license": "MIT",
@@ -40,9 +43,9 @@
     "yup": "^1.3.3"
   },
   "devDependencies": {
-    "@types/node": "^20.11.20",
+    "@types/node": "^20.11.21",
     "@types/uuid": "^9.0.8",
-    "@wirthus/tsconfig": "github:wirthus/tsconfig",
+    "@wirthus/tsconfig": "^1.0.0",
     "eslint": "^8.57.0",
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-jsdoc": "^48.2.0",
@@ -55,8 +58,11 @@
     "tsup": "^8.0.2",
     "typescript": "^5.3.3"
   },
-  "packageManager": "pnpm@8.15.4",
   "engines": {
     "node": ">=16"
-  }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "packageManager": "pnpm@8.15.4"
 }
