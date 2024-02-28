@@ -22,6 +22,10 @@
   "files": [
     "./dist/index.js"
   ],
+  "bin": {
+    "ns-to-libre": "./dist/index.js",
+    "ns2libre": "./dist/index.js"
+  },
   "scripts": {
     "clean": "rimraf dist",
     "build": "tsup-node",
