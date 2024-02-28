@@ -1,6 +1,6 @@
 {
   "name": "ns-to-libre",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Transfer Nightscout data to LibreView",
   "keywords": [
     "nightscout",
